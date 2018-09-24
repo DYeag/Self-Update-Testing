@@ -1,7 +1,7 @@
 from subprocess import check_call as run
 from getopt import getopt, GetoptError
 RELEASE = 'master' # default release
-SRC_DIR = "$HOME/.src" # checkout directory
+SRC_DIR = "" # checkout directory
 UPDATE_CMD = ( # base command
 'pip install --src="%s" --upgrade -e ' 
 'git://github.com/DYeag/Self-Update-Testing.git@%s#egg=Self-Update-Testing'
