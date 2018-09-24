@@ -1,4 +1,4 @@
 from utils.update import update
 
-update()
+update('nothing')
 print "passed?"
