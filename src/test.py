@@ -1,9 +1,4 @@
-from utils import update
+from utils.update import update
 
 
-def main():
-    update()
-    print "passed?"
-
-if __name__ == "test":
-    main()
+print "passed?"
