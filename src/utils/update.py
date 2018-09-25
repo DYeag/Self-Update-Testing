@@ -1,4 +1,4 @@
-from subprocess import Popen as run
+from subprocess import call as run
 from getopt import getopt, GetoptError
 RELEASE = 'master' # default release
 SRC_DIR = "C:\Github" # checkout directory
@@ -38,7 +38,6 @@ def update(args):
         cmd = UPDATE_CMD % (src_dir, release)
 
     if sudo:
-        p1 = run('sudo %s' % cmd)
+        run('sudo %s' % cmd)
     else:
-        p1 = run(cmd)
-    p1.wait
+        run(cmd)
