@@ -1,4 +1,5 @@
 cd "C:\Github\Self-Update-Testing\src"
+echo 'helloworld1'
 git pull
-echo 'helloworld'
+echo 'helloworld2'
 python test.py
