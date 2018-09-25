@@ -1,4 +1,4 @@
-from subprocess import check_call as run
+from subprocess import call as run
 from getopt import getopt, GetoptError
 RELEASE = 'master' # default release
 SRC_DIR = "C:\Github" # checkout directory
